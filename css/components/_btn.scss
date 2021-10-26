@@ -2,12 +2,14 @@
   font-size: 19px;
   font-weight: 800;
   padding: 18px 35px;
+  cursor: pointer;
   text-transform: uppercase;
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
   background: $yellow;
   border: none;
+  color:#000000;
 
   &:hover {
     background: #FFD517 ;

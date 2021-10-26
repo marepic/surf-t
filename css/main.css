@@ -196,12 +196,14 @@ img {
   font-size: 19px;
   font-weight: 800;
   padding: 18px 35px;
+  cursor: pointer;
   text-transform: uppercase;
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
   background: #FEDB3F;
   border: none;
+  color: #000000;
 }
 .btn:hover {
   background: #FFD517;
@@ -308,6 +310,10 @@ img {
           transform: translate(-50%, -50%);
 }
 
+.benefit__desc {
+  color: #666;
+}
+
 .reviews__display {
   background: #F8FAF9;
   padding: 50px 45px 34px;
@@ -347,6 +353,7 @@ img {
 
 .reviews__text {
   margin-bottom: 36px;
+  color: #666;
 }
 
 .reviews__author {
