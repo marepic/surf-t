@@ -8,6 +8,7 @@ body {
   font-size: 18px;
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
   line-height: 1.42;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
@@ -407,6 +408,7 @@ img {
   background-size: 100% 100%;
   color: #fff;
   Fill: Solid #2B2B2B;
+  max-width: 100%;
 }
 
 .form {
