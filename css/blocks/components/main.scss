@@ -1,0 +1,37 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//colors
+$yellow:#FEDB3F;
+$gray: #666666;
+$black: #292929;
+$white: #fff;
+
+//z-idexes
+
+$z-fixed-menu: 100;
+
+//normalize
+@import "https:necolas.github.io/normalize.css/8.0.1/normalize.css";
+
+
+//setups
+@import "_layout";
+
+//components
+@import "components/_hero";
+@import "components/_header";
+@import "components/_features";
+@import "components/_feature";
+@import "components/_btn";
+@import "components/_section";
+@import "components/_headline";
+@import "components/_benefits";
+@import "components/_benefit";
+@import "components/_reviews";
+@import "components/_interactive-avatar";
+@import "components/_order-section";
+@import "components/_form";
+@import "components/_radio";
+@import "components/_fixed-menu";
+
