@@ -72,7 +72,7 @@ img {
 }
 
 .hero {
-  background: url(../../../../img/hello__back.png) no-repeat top center;
+  background: url(../../../img/hello__back.png) no-repeat top center;
   color: #fff;
   height: 100vh;
   min-height: 650px;
@@ -267,7 +267,7 @@ img {
   position: relative;
 }
 .benefits__item:before {
-  content: url(../../../../img/icons/dots.png);
+  content: url(../../../img/icons/dots.png);
   position: absolute;
   top: 48px;
   right: 0;
@@ -396,7 +396,7 @@ img {
 }
 
 .order__section {
-  background: url(../../../../img/form.jpg) no-repeat center;
+  background: url(../../../img/form.jpg) no-repeat center;
   background-size: 100% 100%;
   color: #fff;
   Fill: Solid #2B2B2B;
@@ -476,7 +476,7 @@ img {
   border-radius: 4px;
 }
 .radio--checkbox .radio__visible::before {
-  background: url(../../../../img/icons/check-mark.svg) center center no-repeat;
+  background: url(../../../img/icons/check-mark.svg) center center no-repeat;
 }
 
 .radio__elem {
