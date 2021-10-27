@@ -75,6 +75,7 @@ img {
 .hero {
   background: url(../img/hello__back.png) no-repeat top center;
   color: #fff;
+  background-size: 100% 100%;
   height: 100vh;
   min-height: 650px;
 }
@@ -95,7 +96,7 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  padding: 24px 0 45px;
+  padding: 24px 0 68px;
 }
 
 .hero__main-title {
