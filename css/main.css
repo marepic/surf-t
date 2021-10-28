@@ -72,6 +72,10 @@ img {
   max-width: 100%;
 }
 
+.input {
+  font-family: inherit;
+}
+
 .hero__section {
   background: url(../img/hello__back.png) no-repeat top center;
   color: #fff;
