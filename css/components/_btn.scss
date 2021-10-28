@@ -1,11 +1,11 @@
 .btn {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 800;
-  padding: 18px 35px;
+  padding: 21px 41px;
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 100px;
-  line-height: 1;
+  line-height: 18px;
   text-decoration: none;
   background: $yellow;
   border: none;
@@ -20,6 +20,7 @@
     color: #fff;
     font-weight: normal ;
     text-transform: none;
+    padding-left: 22px;
 
     &:hover {
       background: transparent;

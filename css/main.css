@@ -72,12 +72,10 @@ img {
   max-width: 100%;
 }
 
-.hero {
+.hero__section {
   background: url(../img/hello__back.png) no-repeat top center;
   color: #fff;
   background-size: 100% 100%;
-  height: 100vh;
-  min-height: 650px;
 }
 
 .hero__title-section {
@@ -195,13 +193,13 @@ img {
 }
 
 .btn {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 800;
-  padding: 18px 35px;
+  padding: 21px 41px;
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 100px;
-  line-height: 1;
+  line-height: 18px;
   text-decoration: none;
   background: #FEDB3F;
   border: none;
@@ -215,6 +213,7 @@ img {
   color: #fff;
   font-weight: normal;
   text-transform: none;
+  padding-left: 22px;
 }
 .btn--theme--transparent:hover {
   background: transparent;
@@ -469,6 +468,10 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 21px;
+}
+
+.form__controls--check-mark {
+  margin-bottom: 47px;
 }
 
 .radio {
