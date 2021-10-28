@@ -72,10 +72,6 @@ img {
   max-width: 100%;
 }
 
-.input {
-  font-family: inherit;
-}
-
 .hero__section {
   background: url(../img/hello__back.png) no-repeat top center;
   color: #fff;
@@ -200,6 +196,7 @@ img {
   font-size: 18px;
   font-weight: 800;
   padding: 21px 41px;
+  font-family: inherit;
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 100px;
