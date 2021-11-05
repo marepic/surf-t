@@ -1,12 +1,12 @@
 .btn {
-  font-size: 18px;
+  font-size: rem(18px);
   font-weight: 800;
-  padding: 21px 41px;
+  padding: rem(21px) rem(41px);
   font-family: inherit;
   cursor: pointer;
   text-transform: uppercase;
-  border-radius: 100px;
-  line-height: 18px;
+  border-radius: rem(100px);
+  line-height: rem(18px);
   text-decoration: none;
   background: $yellow;
   border: none;
@@ -21,7 +21,7 @@
     color: #fff;
     font-weight: normal ;
     text-transform: none;
-    padding-left: 22px;
+    padding-left: rem(22px);
 
     &:hover {
       background: transparent;
