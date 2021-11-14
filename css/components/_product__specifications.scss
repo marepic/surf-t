@@ -24,6 +24,10 @@
         background: #3465A3;
         ;
     }
+
+    @include tablets {
+        display: none;
+    }
 }
 
 .specification__icon {

@@ -151,28 +151,30 @@
       </section>
       <section class="section products__section">
         <div class="container slider__container">
-          <a class="prev">
-            <svg class="arrow">
-              <use xlink:href="./sprite.svg#arrow_left"></use>
-            </svg>
-          </a>
-          <a class="next">
-            <svg class="arrow">
-              <use xlink:href="./sprite.svg#arrow_right"></use>
-            </svg>
-          </a>
+          <div class="product-slider__arrows">
+            <a class="products-slider__arrow products-slider__arrow--direction--prev">
+              <svg class="arrow">
+                <use xlink:href="./sprite.svg#arrow_left"></use>
+              </svg>
+            </a>
+            <a class="products-slider__arrow products-slider__arrow--direction--next">
+              <svg class="arrow">
+                <use xlink:href="./sprite.svg#arrow_right"></use>
+              </svg>
+            </a>
+          </div>
           <ul class="products">
             <li class="products__item product">
               <div class="product__container">
-                <div class="product__col">
+                <div class="product__col product__col__img">
                   <div class="product__img">
-                    <img src="./img/surfboard_blue.png" alt="" class="surfboard">
+                    <img src="./img/surfboard_blue.png" alt="">
                   </div>
                   <svg class="product__element">
                     <use xlink:href="./sprite.svg#product_element"></use>
                   </svg>
                 </div>
-                <div class="product__col">
+                <div class="product__col product__col__content">
                   <div class="product__specifications">
                     <div class="specification__btn">
                       <svg class="specification__icon">
@@ -422,5 +424,38 @@
       <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
     </ul>
   </nav>
+  <div class="fullscreen-menu active">
+    <a href="#" class="fullscreen-menu__close">
+      <svg class="hamburger__icon">
+        <use xlink:href="./sprite.svg#close"></use>
+      </svg>
+    </a>
+    <nav class="menu menu--vertical">
+      <ul class="menu__list menu__list--vertical">
+        <li class="menu__item">
+          <a href="#" class="menu__link">О нас</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Серфборды</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Команда</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Меню</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Отзывы</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Как мы работаем</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <script src="./scripts/menu.js"></script>
 </body>
 </html>
