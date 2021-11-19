@@ -1079,6 +1079,10 @@ img {
   outline: none;
 }
 
+.input-error {
+  border-color: #f03939;
+}
+
 .form__controls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1432,4 +1436,37 @@ img {
   width: 100%;
   height: 100%;
   color: #B3B3B3;
+}
+
+.modal.error-modal {
+  color: red;
+}
+.modal.error-modal .modal__content {
+  color: red;
+}
+.modal.fancybox-content {
+  padding: 0 !important;
+}
+.modal .fancybox-button {
+  display: none;
+}
+
+.modal__container {
+  background: #fff;
+  padding: 35px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal__content {
+  margin-bottom: 28px;
+  color: #000;
 }
