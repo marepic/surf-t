@@ -1,5 +1,10 @@
+.products__section {
+    background: #F8FAF9;
+}
+
 .product__container {
     display: flex;
+    justify-content: center;
     
     @include tablets {
         flex-direction: column;

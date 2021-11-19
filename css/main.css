@@ -345,13 +345,20 @@ img {
   color: #FEDB3F;
 }
 
-.slider__container {
+.product-slider {
   position: relative;
   max-width: 1100px;
+}
+.product-slider .bx-wrapper {
+  border: 0;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .products-slider__arrow--direction--next, .products-slider__arrow--direction--prev {
   cursor: pointer;
+  z-index: 1;
   position: absolute;
   top: 50%;
   width: auto;
@@ -365,7 +372,7 @@ img {
 }
 
 .products-slider__arrow--direction--next {
-  right: 12%;
+  right: 0;
 }
 
 .arrow {
@@ -373,10 +380,17 @@ img {
   height: 100%;
 }
 
+.products__section {
+  background: #F8FAF9;
+}
+
 .product__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media screen and (max-width: 768px) {
   .product__container {
@@ -616,6 +630,125 @@ img {
   height: 1.3333333333rem;
 }
 
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.team__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  margin-right: 1.1111111111rem;
+  max-width: 12.3333333333rem;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .team__item {
+    margin-bottom: 0.9444444444rem;
+  }
+}
+
+.team__member {
+  max-height: 16.1111111111rem;
+  margin-bottom: 1.1111111111rem;
+}
+
+.team__member-img {
+  display: inline;
+}
+
+.team__title {
+  padding-right: 0.7222222222rem;
+  color: #292929;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 1.1666666667rem;
+  border: none;
+  background: #fff;
+  background-image: url(../img/icons/svg/triangle.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 57%;
+}
+@media screen and (max-width: 768px) {
+  .team__title {
+    margin-bottom: 0.8333333333rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team--version--desktop {
+    display: none;
+  }
+}
+
+.team--version--desktop .team__content {
+  position: absolute;
+  top: 100%;
+}
+
+.team__content {
+  overflow: hidden;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+  height: 0;
+}
+
+.team__content-block {
+  padding-bottom: 0.2777777778rem;
+}
+
+.team__profession {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  color: #292929;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  .team__profession {
+    font-weight: 700;
+  }
+}
+
+.team__text {
+  font-weight: 300;
+  padding: 0 7%;
+  color: #666666;
+}
+
+.team--version--mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .team--version--mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .headline {
   text-align: center;
   margin-bottom: 2.7222222222rem;
@@ -806,6 +939,29 @@ img {
           justify-content: center;
 }
 
+.reviews__list {
+  position: relative;
+  min-height: 280px;
+}
+
+.reviews__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.reviews__item.active {
+  position: static;
+  opacity: 1;
+  pointer-events: unset;
+}
+
 .interactive-avatar {
   width: 4.4444444444rem;
   height: 4.4444444444rem;
@@ -814,7 +970,8 @@ img {
   overflow: hidden;
   position: relative;
 }
-.interactive-avatar--active {
+
+.active {
   border-color: #FEDB3F;
 }
 
